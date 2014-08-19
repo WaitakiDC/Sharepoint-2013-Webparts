@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="dc6fe042-3f28-4181-9337-6bb7cf3562e0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="LibraryTest.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="LibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=88f135e565ce0314" Namespace="LibraryTest.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="LibraryTest_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7f7c510c-e726-46a0-9ba2-7d8fe8abe3fa" solutionId="7f7c510c-e726-46a0-9ba2-7d8fe8abe3fa" resetWebServer="false" sharePointProductVersion="15.0" name="Dilbert" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c0777c79-7ecc-45a8-8123-f908a5acf15b" />
+  </features>
+</package>

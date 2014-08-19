@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ebbfcb0b-44e1-4e49-940b-d2e24bd47c17" solutionId="ebbfcb0b-44e1-4e49-940b-d2e24bd47c17" resetWebServer="false" sharePointProductVersion="15.0" name="FacebookTest" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c2f06f7c-83f9-435d-9190-c75ba139fa30" />
+  </features>
+</package>

@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\bin\Debug\AlertWebpart.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\bin\Debug\AlertWebpart.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.pdb

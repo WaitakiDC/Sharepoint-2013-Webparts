@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="33fda840-bc5c-455d-9ad7-40066626c664" solutionId="33fda840-bc5c-455d-9ad7-40066626c664" resetWebServer="false" sharePointProductVersion="15.0" name="FacebookFeed" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="7f1f0fdc-45a2-4686-8f01-ab4fb7828d5a" />
+  </features>
+</package>

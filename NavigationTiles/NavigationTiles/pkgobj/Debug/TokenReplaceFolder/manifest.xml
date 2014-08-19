@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e357cc97-a0d9-4397-a32b-791c0aa61b8c" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="NavigationTiles.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="NavigationTiles, Version=1.0.0.0, Culture=neutral, PublicKeyToken=85a53647089c69d2" Namespace="NavigationTiles.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="NavigationTiles_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

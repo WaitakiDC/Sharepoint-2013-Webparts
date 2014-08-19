@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="fded5ed7-af66-48b5-a0b4-c1c8e18e6e15" Scope="Site" Title="PromotionsApp Feature1">
+  <ElementManifests>
+    <ElementManifest Location="PromotionsWebpart\Elements.xml" />
+    <ElementFile Location="PromotionsWebpart\PromotionsWebpart.webpart" />
+  </ElementManifests>
+</Feature>

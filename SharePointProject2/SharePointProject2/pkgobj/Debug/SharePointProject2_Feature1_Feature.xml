@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="a526508c-0929-4b11-ba59-4cab6d6c810d" Scope="Site" Title="SharePointProject2 Feature1">
+  <ElementManifests>
+    <ElementManifest Location="WebPart1\Elements.xml" />
+    <ElementFile Location="WebPart1\WebPart1.webpart" />
+  </ElementManifests>
+</Feature>

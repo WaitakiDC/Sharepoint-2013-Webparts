@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6f5bfac2-72b5-4130-84da-040467aa6e7b" solutionId="6f5bfac2-72b5-4130-84da-040467aa6e7b" resetWebServer="false" sharePointProductVersion="15.0" name="SubSiteNavi" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c2522291-a41b-4fdd-9b9d-b34b33ad4f02" />
+  </features>
+</package>

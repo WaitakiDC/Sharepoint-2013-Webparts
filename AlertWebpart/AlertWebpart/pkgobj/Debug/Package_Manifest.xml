@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f7ebb82e-bba2-43d7-a073-429c6385f656" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="AlertWebpart.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="AlertWebpart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0233a99a13b64ed6" Namespace="AlertWebpart.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="AlertWebpart_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

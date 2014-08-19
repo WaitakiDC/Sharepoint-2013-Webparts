@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\LibraryTest\LibraryTest\bin\Debug\LibraryTest.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\LibraryTest\LibraryTest\bin\Debug\LibraryTest.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\LibraryTest\LibraryTest\obj\Debug\LibraryTest.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\LibraryTest\LibraryTest\obj\Debug\LibraryTest.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\LibraryTest\LibraryTest\obj\Debug\LibraryTest.pdb

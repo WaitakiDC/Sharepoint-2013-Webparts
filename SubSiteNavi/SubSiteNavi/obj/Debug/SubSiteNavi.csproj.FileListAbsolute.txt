@@ -1,0 +1,4 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\SubSiteNavi\SubSiteNavi\bin\Debug\SubSiteNavi.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\SubSiteNavi\SubSiteNavi\bin\Debug\SubSiteNavi.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\SubSiteNavi\SubSiteNavi\obj\Debug\SubSiteNavi.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\SubSiteNavi\SubSiteNavi\obj\Debug\SubSiteNavi.pdb

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7f7c510c-e726-46a0-9ba2-7d8fe8abe3fa" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Dilbert.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Dilbert, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1ebad25aa46b26f8" Namespace="Dilbert.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\Dilbert\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Dilbert_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

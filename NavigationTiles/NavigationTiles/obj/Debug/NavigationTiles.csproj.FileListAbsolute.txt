@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\bin\Debug\NavigationTiles.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\bin\Debug\NavigationTiles.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.pdb

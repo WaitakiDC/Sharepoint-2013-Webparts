@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e357cc97-a0d9-4397-a32b-791c0aa61b8c" solutionId="e357cc97-a0d9-4397-a32b-791c0aa61b8c" resetWebServer="false" sharePointProductVersion="15.0" name="NavigationTiles" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="2daf64a4-e3e2-40cf-a63e-6a77b25759bd" />
+  </features>
+</package>

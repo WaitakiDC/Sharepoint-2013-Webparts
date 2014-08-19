@@ -1,0 +1,5 @@
+C:\Users\sp_admin\documents\visual studio 2013\Projects\Dilbert\Dilbert\obj\Debug\Dilbert.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\documents\visual studio 2013\Projects\Dilbert\Dilbert\bin\Debug\Dilbert.dll
+C:\Users\sp_admin\documents\visual studio 2013\Projects\Dilbert\Dilbert\bin\Debug\Dilbert.pdb
+C:\Users\sp_admin\documents\visual studio 2013\Projects\Dilbert\Dilbert\obj\Debug\Dilbert.dll
+C:\Users\sp_admin\documents\visual studio 2013\Projects\Dilbert\Dilbert\obj\Debug\Dilbert.pdb

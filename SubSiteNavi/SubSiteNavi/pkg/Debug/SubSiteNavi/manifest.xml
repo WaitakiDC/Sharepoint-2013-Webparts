@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="6f5bfac2-72b5-4130-84da-040467aa6e7b" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SubSiteNavi.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SubSiteNavi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1f00be2e40f2fa9e" Namespace="SubSiteNavi.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SubSiteNavi_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

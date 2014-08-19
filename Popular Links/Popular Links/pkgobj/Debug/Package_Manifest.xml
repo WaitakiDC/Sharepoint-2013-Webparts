@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1793ff28-ada5-4305-9d6a-64251a57f3c9" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Popular Links.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Popular Links, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3044fa23819525d9" Namespace="Popular_Links.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Popular Links_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

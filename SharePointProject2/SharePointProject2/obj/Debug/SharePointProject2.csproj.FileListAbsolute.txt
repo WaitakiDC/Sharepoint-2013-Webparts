@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\SharePointProject2\SharePointProject2\obj\Debug\SharePointProject2.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\SharePointProject2\SharePointProject2\bin\Debug\SharePointProject2.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\SharePointProject2\SharePointProject2\bin\Debug\SharePointProject2.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\SharePointProject2\SharePointProject2\obj\Debug\SharePointProject2.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\SharePointProject2\SharePointProject2\obj\Debug\SharePointProject2.pdb

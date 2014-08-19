@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f97551be-4dcc-40c3-8d2a-0cc249fbf67a" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="PromotionsSlider.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="PromotionsSlider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4278a46c458afb7d" Namespace="PromotionsApp.PromotionsWebpart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="PromotionsApp_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

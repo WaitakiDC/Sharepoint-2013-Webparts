@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookFeed\FacebookFeed\bin\Debug\FacebookFeed.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookFeed\FacebookFeed\bin\Debug\FacebookFeed.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookFeed\FacebookFeed\obj\Debug\FacebookFeed.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookFeed\FacebookFeed\obj\Debug\FacebookFeed.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookFeed\FacebookFeed\obj\Debug\FacebookFeed.pdb

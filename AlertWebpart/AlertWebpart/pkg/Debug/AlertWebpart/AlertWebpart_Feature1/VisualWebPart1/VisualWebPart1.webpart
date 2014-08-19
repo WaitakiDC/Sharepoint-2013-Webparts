@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="AlertWebpart.VisualWebPart1.VisualWebPart1, AlertWebpart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0233a99a13b64ed6" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">AlertsBox</property>
+		  <property name="Description" type="string">Alert box to nicely display information from a list into a easy to read format</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

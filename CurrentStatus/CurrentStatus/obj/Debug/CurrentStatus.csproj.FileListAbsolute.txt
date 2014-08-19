@@ -1,0 +1,3 @@
+c:\Users\sp_admin\Documents\Visual Studio 2013\Projects\CurrentStatus\CurrentStatus\bin\Debug\CurrentStatus.pdb
+c:\Users\sp_admin\Documents\Visual Studio 2013\Projects\CurrentStatus\CurrentStatus\obj\Debug\CurrentStatus.dll
+c:\Users\sp_admin\Documents\Visual Studio 2013\Projects\CurrentStatus\CurrentStatus\obj\Debug\CurrentStatus.pdb

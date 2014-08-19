@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f97551be-4dcc-40c3-8d2a-0cc249fbf67a" solutionId="f97551be-4dcc-40c3-8d2a-0cc249fbf67a" resetWebServer="false" sharePointProductVersion="15.0" name="PromotionsApp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="63c72cb7-94bd-4e3f-a624-46b8e2df6bab" />
+  </features>
+</package>

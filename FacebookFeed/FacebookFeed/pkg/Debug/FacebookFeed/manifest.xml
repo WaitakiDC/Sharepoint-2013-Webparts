@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="33fda840-bc5c-455d-9ad7-40066626c664" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="FacebookFeed.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="FacebookFeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=4752aaf1fefffd80" Namespace="FacebookFeed.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="FacebookFeed_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

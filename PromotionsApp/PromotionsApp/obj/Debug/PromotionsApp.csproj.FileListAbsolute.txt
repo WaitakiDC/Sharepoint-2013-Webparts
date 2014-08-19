@@ -1,0 +1,4 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\PromotionsApp\PromotionsApp\bin\Debug\PromotionsSlider.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\PromotionsApp\PromotionsApp\bin\Debug\PromotionsSlider.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\PromotionsApp\PromotionsApp\obj\Debug\PromotionsSlider.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\PromotionsApp\PromotionsApp\obj\Debug\PromotionsSlider.pdb

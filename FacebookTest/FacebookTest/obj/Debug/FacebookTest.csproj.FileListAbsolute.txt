@@ -1,0 +1,5 @@
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\bin\Debug\FacebookTest.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\bin\Debug\FacebookTest.pdb
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.csprojResolveAssemblyReference.cache
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.dll
+c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.pdb
