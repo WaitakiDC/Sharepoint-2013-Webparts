@@ -3,3 +3,8 @@ c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTes
 c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.csprojResolveAssemblyReference.cache
 c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.dll
 c:\users\sp_admin\documents\visual studio 2013\Projects\FacebookTest\FacebookTest\obj\Debug\FacebookTest.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookTest.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookTest.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\bin\Debug\FacebookTest.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\bin\Debug\FacebookTest.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookTest.pdb

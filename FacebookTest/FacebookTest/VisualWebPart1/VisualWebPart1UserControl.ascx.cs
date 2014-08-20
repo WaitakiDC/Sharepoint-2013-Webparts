@@ -45,8 +45,8 @@ namespace FacebookTest.VisualWebPart1
             
 
 
-            createHeader();
-            for (int i = 0; i<2; i++)
+         
+            for (int i = 0; i<4; i++)
             {
                 addPost(fbPost[i],i);
             }
@@ -151,7 +151,12 @@ namespace FacebookTest.VisualWebPart1
                 this.type = type;
                 this.status_type = status_type;
                 string[] messagewords = this.message.Split(' ');
-                this.title = messagewords[0] + " " + messagewords[1] + " " + messagewords[2] + " " + messagewords[3] + " " + messagewords[4] + "...";
+                for (int i = 0; i < messagewords.Length; i++)
+                {
+                    if (i < 7)
+                    this.title += " " + messagewords[i] ;
+                }
+                this.title += "...";
             }
             public String posterName { get; set; }
             public String message { get; set; }
@@ -202,6 +207,8 @@ namespace FacebookTest.VisualWebPart1
             a.Attributes["class"] = "timeandlink";
             a.Attributes["style"] = "float:right";
             a.Attributes["href"] = "https://www.facebook.com/" + post.id + "/posts/" + post.postid;
+            a.Attributes["target"] = "_blank";
+            a.InnerHtml = "View on Facebook";
 
 
             //join the elements to make the post

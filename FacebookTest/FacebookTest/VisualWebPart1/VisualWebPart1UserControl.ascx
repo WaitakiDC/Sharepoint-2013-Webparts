@@ -14,7 +14,6 @@
 {
             
             display:table-row;
-            border-style: solid;
             border-bottom: thin dotted #878079;
 }
 .fbpostImage
@@ -22,6 +21,7 @@
             width:1%;
             display:table-cell;
             vertical-align:middle;
+            text-align: center;
             border-bottom: thin solid #878079;
             background:#F2F2F2;
             
