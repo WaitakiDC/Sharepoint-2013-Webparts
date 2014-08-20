@@ -8,172 +8,50 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VisualWebPart1UserControl.ascx.cs" Inherits="FacebookTest.VisualWebPart1.VisualWebPart1UserControl" %>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Untitled 1</title>
+<title>Facebook Feed</title>
 <style type="text/css">
-.facebook_post
+.facebookPost
 {
-	width:100%;
-	background:#EEEEEE;
-	display:inline-block;
-	margin-bottom:20px;
-	
+            
+            display:table-row;
+            border-style: solid;
+            border-bottom: thin dotted #878079;
 }
-.post_picture
+.fbpostImage
 {
-    
-	display:inline-block;
-	float:left;
-    height:100%;
+            width:1%;
+            display:table-cell;
+            vertical-align:middle;
+            border-bottom: thin solid #878079;
+            background:#F2F2F2;
+            
 }
-.post_picture img
+.fbpostText
 {
-    max-width:100px;
-	padding:10px;
-	width:auto;
-	max-height:100px;
-}
+            
+            padding:5px;
+            padding-top:0px;
+            font-family:Arial, Helvetica, sans-serif;
+            display:table-cell;
 
-.facebook_text_container
-{
-	display:inline-block;
-	float:right;
-    width:300px;
+            border-bottom: thin solid #878079;
 }
-
-.fb_text_container
+.fbpostTitle
 {
-    position:relative;
+            vertical-align:top;
+            font-weight:bold;
+            font-size:18px;
 }
 
-.fb_text_container h1
-{
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:14px;
-	margin:10px;
-	color:#BA4C34;
-	margin-bottom:2px;
-    
-}
-
-
-
-.facebook_link 
-{
-	font-family:Arial, Helvetica, sans-serif;
-	color:#7E7E7E;
-	font-size:10px;
-    	font-family:Arial, Helvetica, sans-serif;
-	margin:10px;
-
-	
-}
-.facebook_link_desc p
-{
-		font-family:Arial, Helvetica, sans-serif;
-	color:#7E7E7E;
-	font-size:12px;
-
-}
-.facebook_message_header
-{
-	border-top:thin;
-	border-style:solid;
-	height:50px;
-	
-}
-.facebook_message_header_image
-{
-	display:inline-block;
-	float:left;
-	padding:5px;
-}
-.facebook_message_header_text
-{
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	color:#BA4C34;
-	line-height:65px;
-	vertical-align:middle;
-	font-size:16px;
-}
-
-.fb_message
-{
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	margin: 5px;
-	
-}
-
-.post
-{
-display:inline-block;
-display: table-cell;
-width:50%;
-	border-style:solid;
-	border:none;
-
-background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.47) 73%, rgba(196,196,196,0.65) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(73%,rgba(255,255,255,0.47)), color-stop(100%,rgba(196,196,196,0.65))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.47) 73%,rgba(196,196,196,0.65) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.47) 73%,rgba(196,196,196,0.65) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.47) 73%,rgba(196,196,196,0.65) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.47) 73%,rgba(196,196,196,0.65) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#a6c4c4c4',GradientType=1 ); /* IE6-9 */
-
-
-
-
-
-
-}
-
-#facebooklogo
-{
-    border-right:thick solid #43609C;
-	background:#43609C;
-	font-family:Arial, Helvetica, sans-serif;
-	font-weight:bold;
-	color:white;
-	font-size:16px;
-	width:100%;
-	height:40px;
-	
-}
-#facebooklogo div
-{
-	margin-top:12px;
-	display:inline-block;
-}
-#facebooklogo img
-{
-	float:left;
-	display:inline-block;
-	padding:5px;
-	height:30px;
-	width:30px;
-}
-.facebook_message_header_image img
-{
-	margin-right:20px;
-}
 
 .timeandlink
 {
-	font-family:Arial, Helvetica, sans-serif;
-	color:#BA4C34;
-	font-size:10px;
+            font-size:10px;
+			vertical-align:bottom;
 }
-
-#postsContainer
-{
-     border-left:thick solid #43609C;
-    border-right:thick solid #43609C;
-    border-bottom:thick solid #43609C;
-}
-
 
 </style>
+
 
 
 
@@ -387,7 +265,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 </head>
 <body>
 
-    <div id="facebookwebpart" runat="server" style="width:800px">
+    <div id="facebookwebpart" style="display:table" runat="server">
 
     </div>
 </body>
