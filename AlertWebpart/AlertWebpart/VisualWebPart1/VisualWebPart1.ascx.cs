@@ -117,21 +117,21 @@ namespace AlertWebpart.VisualWebPart1
             public AlertItem(string title, string desc, string impact, string pintotop,string dateTime)
             {
                 this.title = title;
-                
-                if (desc.Contains("http:"))
-                {
-                    string link = desc.Split(new string[] { "http://" }, StringSplitOptions.None)[1];
-                    link = link.Split(' ')[0];
-                    link = "http://" + link;
-                    desc = desc.Replace(link, "<a target=\"_blank\" href=\"" + link + "\">" + link + "</a>");
-                }
-                else if (desc.Contains("www."))
-                {
-                    string link = desc.Split(new string[] { "www." }, StringSplitOptions.None)[1];
-                    link = link.Split(' ')[0];
-                    link = "www." + link;
-                    desc = desc.Replace(link, "<a target=\"_blank\" href=\"http://" + link + "\">" + link + "</a>");
-                }
+                desc = addLinksToString(desc);
+                //if (desc.Contains("http:"))
+                //{
+                //    string link = desc.Split(new string[] { "http://" }, StringSplitOptions.None)[1];
+                //    link = link.Split(' ')[0];
+                //    link = "http://" + link;
+                //    desc = desc.Replace(link, "<a target=\"_blank\" href=\"" + link + "\">" + link + "</a>");
+                //}
+                //else if (desc.Contains("www."))
+                //{
+                //    string link = desc.Split(new string[] { "www." }, StringSplitOptions.None)[1];
+                //    link = link.Split(' ')[0];
+                //    link = "www." + link;
+                //    desc = desc.Replace(link, "<a target=\"_blank\" href=\"http://" + link + "\">" + link + "</a>");
+                //}
                 this.desc = desc;
                 this.impact = impact;
                 this.dateTime = dateTime;
@@ -146,6 +146,34 @@ namespace AlertWebpart.VisualWebPart1
 
                 this.Created = this.getSortableTime();
             }
+
+            public string addLinksToString(String myString)
+            {
+                string[] temp = myString.Split(' '); //split into words
+                if (myString.Contains("http:") || myString.Contains("www."))
+                { 
+                    for (int i = 0; i < temp.Length; i++)
+                    {
+                        if (temp[i].Contains("www.") && (!temp[i].Contains("http")))
+                        {
+                            temp[i] = "<a href=\"http://" + temp[i] + "\">" + temp[i] + "</a>";
+                        }
+                        else if (temp[i].Contains("http://"))
+                        {
+                            temp[i] = "<a href=\"" + temp[i] + "\">" + temp[i] + "</a>";
+                        }
+                    }
+                        
+                }
+                string result = "";
+                foreach (string item in temp)
+                {
+                    result += item + " ";
+                }
+                return result ;
+            }
+
+           
 
             public string getImpact()
             {

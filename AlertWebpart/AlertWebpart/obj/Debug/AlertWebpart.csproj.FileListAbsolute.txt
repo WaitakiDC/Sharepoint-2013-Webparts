@@ -3,3 +3,8 @@ c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpar
 c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.csprojResolveAssemblyReference.cache
 c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.dll
 c:\users\sp_admin\documents\visual studio 2013\Projects\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AlertWebpart\AlertWebpart\bin\Debug\AlertWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AlertWebpart\AlertWebpart\bin\Debug\AlertWebpart.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AlertWebpart\AlertWebpart\obj\Debug\AlertWebpart.pdb
