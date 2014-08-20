@@ -37,20 +37,45 @@ namespace FacebookTest.VisualWebPart1
 
             for (int i = 0; i < fbPost.Count;i++) 
                 {
-                    if (fbPost[i].type != "link" && fbPost[i].type != "status" && fbPost[i].status_type == "mobile_status_update" || fbPost[i].status_type != "status_update")
+                    if (fbPost[i].status_type != "shared_story" && fbPost[i].status_type != "mobile_status_update" && fbPost[i].status_type != "status_update")
                     {
                         fbPost.Remove(fbPost[i]);
                     }
+                  
                 }
-            
 
 
-         
-            for (int i = 0; i<4; i++)
-            {
+            for (int i = 0; i < 4; i++)
+            {  
                 addPost(fbPost[i],i);
             }
             
+        }
+
+        public string addLinksToString(String myString)
+        {
+            string[] temp = myString.Split(' '); //split into words
+            if (myString.Contains("http:") || myString.Contains("www."))
+            {
+                for (int i = 0; i < temp.Length; i++)
+                {
+                    if (temp[i].Contains("www.") && (!temp[i].Contains("http")))
+                    {
+                        temp[i] = "<a href=\"http://" + temp[i] + "\">" + temp[i] + "</a>";
+                    }
+                    else if (temp[i].Contains("http://"))
+                    {
+                        temp[i] = "<a href=\"" + temp[i] + "\">" + temp[i] + "</a>";
+                    }
+                }
+
+            }
+            string result = "";
+            foreach (string item in temp)
+            {
+                result += item + " ";
+            }
+            return result;
         }
 
 
@@ -77,16 +102,19 @@ namespace FacebookTest.VisualWebPart1
                 string name = "";
                 string type = "";
                 string status_type = "";
-
+                string story = "";
                 
 
                 IDictionary fromdic = (IDictionary)post["from"];
                 postername = fromdic["name"].ToString();
-                //   try
-                //  {
+
                 if (post.Contains("message"))
                 {
-                    message = post["message"].ToString();
+                    message = addLinksToString(post["message"].ToString());
+                }
+                if (post.Contains("story"))
+                {
+                    story = post["story"].ToString();
                 }
                 if (post.Contains("status_type"))
                 {
@@ -126,17 +154,15 @@ namespace FacebookTest.VisualWebPart1
                     type = post["type"].ToString();
                 }
 
-                Post myPost = new Post(message, picture, link, caption, description, id, postid,created,name,postername,type,status_type);
+                Post myPost = new Post(message, picture, link, caption, description, id, postid,created,name,postername,type,status_type,story);
                 fbPost.Add(myPost);
             }
-            facebookwebpart.InnerHtml += "</div>";
-
         }
 
 
         public class Post
         {
-            public Post(String message, String picture, String link, String caption, String description, String id, String postid, String created, String name, String posterName, String type, String status_type)
+            public Post(String message, String picture, String link, String caption, String description, String id, String postid, String created, String name, String posterName, String type, String status_type,String story)
             {
                 this.posterName = posterName;
                 this.message = message;
@@ -149,6 +175,7 @@ namespace FacebookTest.VisualWebPart1
                 this.created = created;
                 this.name = name;
                 this.type = type;
+                this.story = story;
                 this.status_type = status_type;
                 string[] messagewords = this.message.Split(' ');
                 for (int i = 0; i < messagewords.Length; i++)
@@ -159,6 +186,7 @@ namespace FacebookTest.VisualWebPart1
                 this.title += "...";
             }
             public String posterName { get; set; }
+            public String story { get; set; }
             public String message { get; set; }
             public String picture { get; set; }
             public String title { get; set; }
