@@ -39,6 +39,18 @@ namespace DidYouKnow.VisualWebPart1 {
     
     public partial class VisualWebPart1 {
         
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dyktop;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dyksquare;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dykmessage;
+        
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebPartCodeGenerator", "12.0.0.0")]
         public static implicit operator global::System.Web.UI.TemplateControl(VisualWebPart1 target) 
         {
@@ -48,7 +60,119 @@ namespace DidYouKnow.VisualWebPart1 {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.HtmlControls.HtmlGenericControl @__BuildControldyktop() {
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlGenericControl("div");
+            this.dyktop = @__ctrl;
+            @__ctrl.ID = "dyktop";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "dyktop");
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.HtmlControls.HtmlGenericControl @__BuildControldyksquare() {
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlGenericControl("div");
+            this.dyksquare = @__ctrl;
+            @__ctrl.ID = "dyksquare";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "dyksquare");
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.HtmlControls.HtmlGenericControl @__BuildControldykmessage() {
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl;
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlGenericControl("div");
+            this.dykmessage = @__ctrl;
+            @__ctrl.ID = "dykmessage";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "dykmessage");
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
         private void @__BuildControlTree(global::DidYouKnow.VisualWebPart1.VisualWebPart1 @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+<head>
+    <title>Did you know</title>
+<style type=""text/css"">
+/*CSS to House */
+.dyktop {
+	position:absolute;
+    width: 0;
+	height: 0;
+	margin-top:30px;
+	margin-left:35px;
+	
+	border-left: 61px solid transparent;
+
+
+}
+
+.dyksquare {
+	  margin-top:22px;
+  margin-left:7px;
+  position: absolute;
+  content: '';
+  width: 86px;
+  height: 46px;
+  background: #554d89;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+     transform: rotate(-45deg);
+}
+
+.dyktext {
+	color:white;
+	position:absolute;
+	margin-left:8px;
+	margin-top:25px;
+	width:86px;
+		font-family:Arial, Helvetica, sans-serif;
+        font-size:16px;
+font-weight:600;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+     transform: rotate(-45deg);
+	 text-align:center;
+}
+
+
+
+.dykmessage
+{
+	padding-top:30px;
+	margin-left:100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+			
+</style>
+
+</head>
+
+<body>
+    <div style=""min-height:80px;"">
+		"));
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
+            @__ctrl1 = this.@__BuildControldyktop();
+            @__parser.AddParsedSubObject(@__ctrl1);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\t\t"));
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl2;
+            @__ctrl2 = this.@__BuildControldyksquare();
+            @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\t\t<div class=\'dyktext\'>DID YOU KNOW?</div>\r\n        "));
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl3;
+            @__ctrl3 = this.@__BuildControldykmessage();
+            @__parser.AddParsedSubObject(@__ctrl3);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n</body>\r\n\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

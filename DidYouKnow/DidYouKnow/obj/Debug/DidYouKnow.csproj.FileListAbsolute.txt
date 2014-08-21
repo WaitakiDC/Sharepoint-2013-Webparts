@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\DidYouKnow\DidYouKnow\bin\Debug\DidYouKnow.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\DidYouKnow\DidYouKnow\bin\Debug\DidYouKnow.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\DidYouKnow\DidYouKnow\obj\Debug\DidYouKnow.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\DidYouKnow\DidYouKnow\obj\Debug\DidYouKnow.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\DidYouKnow\DidYouKnow\obj\Debug\DidYouKnow.pdb

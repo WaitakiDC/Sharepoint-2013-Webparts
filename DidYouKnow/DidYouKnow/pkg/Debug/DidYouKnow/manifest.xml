@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7e782c0e-230f-4b4f-a6b2-ece1393a7885" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="DidYouKnow.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="DidYouKnow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a393bf6e199a478c" Namespace="DidYouKnow.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="DidYouKnow_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
