@@ -3,3 +3,8 @@ c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\Navigati
 c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.csprojResolveAssemblyReference.cache
 c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.dll
 c:\users\sp_admin\documents\visual studio 2013\Projects\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\NavigationTiles\NavigationTiles\bin\Debug\NavigationTiles.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\NavigationTiles\NavigationTiles\bin\Debug\NavigationTiles.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\NavigationTiles\NavigationTiles\obj\Debug\NavigationTiles.pdb
