@@ -2,7 +2,7 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
   <Module Name="VisualWebPart1" List="113" Url="_catalogs/wp">
     <File Path="VisualWebPart1\VisualWebPart1.webpart" Url="NavigationTiles_VisualWebPart1.webpart" Type="GhostableInLibrary" >
-      <Property Name="Group" Value="Custom" />
+      <Property Name="Group" Value="Waitaki District Council" />
     </File>
   </Module>
 </Elements>

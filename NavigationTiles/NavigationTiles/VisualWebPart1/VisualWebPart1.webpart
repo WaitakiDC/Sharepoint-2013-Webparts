@@ -7,8 +7,8 @@
     </metaData>
     <data>
       <properties>
-        <property name="Title" type="string">NavigationTiles - VisualWebPart1</property>
-        <property name="Description" type="string">My Visual Web Part</property>
+        <property name="Title" type="string">Navigation Tiles</property>
+        <property name="Description" type="string">Used for the site navigation. Can display images and text going to a link</property>
       </properties>
     </data>
   </webPart>

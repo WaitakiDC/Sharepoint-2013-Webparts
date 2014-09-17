@@ -78,7 +78,9 @@
     <None Include="VisualWebPart1\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{46033c9d-d0d7-4915-8685-abf6b4c4aeca}</SharePointProjectItemId>
     </None>
-    <None Include="VisualWebPart1\VisualWebPart1.webpart" />
+    <None Include="VisualWebPart1\VisualWebPart1.webpart">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Features\Feature1\Feature1.Template.xml">

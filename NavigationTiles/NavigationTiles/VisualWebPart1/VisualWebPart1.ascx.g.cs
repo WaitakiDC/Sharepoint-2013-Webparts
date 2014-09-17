@@ -92,11 +92,26 @@ namespace NavigationTiles.VisualWebPart1 {
 	width:100%;
 }
 
+#panelsHolder ul 
+{
+    margin-top:40px;
+}
 
-#panelsHolder li
+#panelsHolder li > a > ul 
+{
+    margin-top: 0px;
+}
+
+#panelsHolder li > a > ul > li 
+{
+    font-size: 12px;    
+    font-weight: normal;
+    margin-top: -7px;
+}
+
+#panelsHolder div > li
 {
 	font-family:Arial, Helvetica, sans-serif;
-	
 	font-weight:bold;
 	height: 200px;
 	width: 360px;
@@ -117,7 +132,7 @@ line-height: 21.99px;
 	border-right: 1px dotted #999;
 }
 
-#panelsHolder li a
+#panelsHolder div > li a
 {
 	font-size: 20px;
 	width: 360px;
@@ -131,12 +146,12 @@ line-height: 21.99px;
 	color: black;
 }
 
-#panelsHolder li a:hover
+#panelsHolder div > li a:hover
 {
 	color:white;
 }
 
-#panelsHolder li:hover
+#panelsHolder div > li:hover
 {
 	color:white;
 	

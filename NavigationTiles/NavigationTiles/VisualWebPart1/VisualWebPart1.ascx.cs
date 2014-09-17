@@ -18,6 +18,7 @@ namespace NavigationTiles.VisualWebPart1
         private string _libraryName;
         private string _titleValue;
         private string _linkValue;
+        private string _listItems;
         private string _orderValue;
         private string _colourValue;
 
@@ -33,6 +34,19 @@ namespace NavigationTiles.VisualWebPart1
         {
             get { return _libraryName; }
             set { _libraryName = value; }
+        }
+
+        [System.Web.UI.WebControls.WebParts.WebBrowsable(true),
+         System.Web.UI.WebControls.WebParts.WebDisplayName("List of Items Name"),
+         System.Web.UI.WebControls.WebParts.WebDescription(""),
+         System.Web.UI.WebControls.WebParts.Personalizable(
+         System.Web.UI.WebControls.WebParts.PersonalizationScope.Shared),
+         System.ComponentModel.Category("Navi Properties"),
+        System.ComponentModel.DefaultValue("")]
+        public string _ListItems
+        {
+            get { return _listItems; }
+            set { _listItems = value; }
         }
 
         [System.Web.UI.WebControls.WebParts.WebBrowsable(true),
@@ -124,7 +138,7 @@ System.ComponentModel.DefaultValue("Link")]
             String url = HttpContext.Current.Request.Url.ToString();
             if (url.Contains("SitePages"))
             {
-                url = url.Split(new string[] { "SitePages" }, StringSplitOptions.None)[0];
+                url = url.Split(new string[] { "default.aspx" }, StringSplitOptions.None)[0];
             }
 
 
@@ -144,9 +158,12 @@ System.ComponentModel.DefaultValue("Link")]
                             string title = Convert.ToString(lists.Items[i][_TitleValue.ToString()]);
                             string link = Convert.ToString(lists.Items[i][_LinkValue.ToString()]);
                             string order = Convert.ToString(lists.Items[i][_OrderValue.ToString()]);
+                            string listItems = Convert.ToString(lists.Items[i][_ListItems.ToString()]);
                             link = link.Split(',')[0];
 
-                            NaviItemList.Add(new NaviItem(pic, title, link, order));
+
+
+                            NaviItemList.Add(new NaviItem(pic, title, link, order,(listItems.Split(','))));
 
 
                         }
@@ -175,13 +192,15 @@ System.ComponentModel.DefaultValue("Link")]
             protected string title;
             protected string link;
             protected string order;
+            protected Array listItems;
 
-            public NaviItem(string pic, string title, string link, string order)
+            public NaviItem(string pic, string title, string link, string order, Array listItems)
             {
                 this.pic = pic;
                 this.title = title;
                 this.link = link;
                 this.order = order;
+                this.listItems = listItems;
             }
 
             public override string ToString()
@@ -192,11 +211,30 @@ System.ComponentModel.DefaultValue("Link")]
             public void addLi(HtmlGenericControl naviDiv, string url)
             {
                 HtmlGenericControl li = new HtmlGenericControl("li");
-                li.Style.Add("BACKGROUND-IMAGE", "url(\"" + url + pic + "\")");
+                li.Style.Add("BACKGROUND-IMAGE", "url(\"../" + pic + "\")");
                 naviDiv.Controls.Add(li);
                 HtmlGenericControl anchor = new HtmlGenericControl("a");
+
+                HtmlGenericControl ULItems = new HtmlGenericControl("ul");
+
+
+                foreach (string s in listItems)
+                {
+                    if (s != "")
+                    {
+                        HtmlGenericControl item = new HtmlGenericControl("li");
+                        HtmlGenericControl p = new HtmlGenericControl("p");
+                        p.InnerHtml = s;
+                        item.Controls.Add(p);
+                        ULItems.Controls.Add(item);
+                    }
+                }
+
+
+
                 anchor.Attributes.Add("href", link);
                 anchor.InnerText = title;
+                anchor.Controls.Add(ULItems);
                 li.Controls.Add(anchor);
             }
         }
