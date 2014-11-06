@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="33be06ce-3bc2-4c10-8ea1-7a7e350d9dd7" solutionId="33be06ce-3bc2-4c10-8ea1-7a7e350d9dd7" resetWebServer="false" sharePointProductVersion="15.0" name="MeetingListWebpart" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="9e2918da-2085-44f0-94f5-96e56ff9caf6" />
+  </features>
+</package>
