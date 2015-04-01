@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="100">
+      <Receiver>
+        <Name>EventReceiver1ItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>ContractsSiteCreationList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0bb768d48d64afc7</Assembly>
+        <Class>ContractsSiteCreationList.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiver1ItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>ContractsSiteCreationList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0bb768d48d64afc7</Assembly>
+        <Class>ContractsSiteCreationList.EventReceiver1.EventReceiver1</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

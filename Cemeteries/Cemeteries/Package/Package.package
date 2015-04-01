@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="02d92e3c-05f8-42b8-abc1-975005fa3f03" solutionId="02d92e3c-05f8-42b8-abc1-975005fa3f03" resetWebServer="false" sharePointProductVersion="15.0" name="Cemeteries" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a07b6dd2-53a5-4e8b-b768-fa6f518ef6a9" />
+  </features>
+</package>

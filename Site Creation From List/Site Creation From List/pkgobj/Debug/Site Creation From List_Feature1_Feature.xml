@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="b020e8aa-20b8-4ca7-b7a7-25936c1b9e7c" Scope="Web" Title="Site Creation From List Feature1">
+  <ElementManifests>
+    <ElementManifest Location="List1Instance\Elements.xml" />
+    <ElementManifest Location="List1\Elements.xml" />
+    <ElementFile Location="List1\Schema.xml" />
+    <ElementManifest Location="ManageListSiteCreation\Elements.xml" />
+    <ElementManifest Location="EventReceiver1\Elements.xml" />
+  </ElementManifests>
+</Feature>

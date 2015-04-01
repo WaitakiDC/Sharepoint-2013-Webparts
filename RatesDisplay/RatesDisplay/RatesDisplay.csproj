@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA4B7651-CCD5-44C9-94B7-E96B1F0AB891}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RatesDisplay</RootNamespace>
+    <AssemblyName>RatesDisplay</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisualWebPart1\LeviedDetailForList.cs" />
+    <Compile Include="VisualWebPart1\PropertyInfoForList.cs" />
+    <Compile Include="VisualWebPart1\RatesLevyDetail.cs" />
+    <Compile Include="VisualWebPart1\RatesObject.cs" />
+    <Compile Include="VisualWebPart1\VisualWebPart1.cs" />
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VisualWebPart1\VisualWebPart1UserControl.ascx.designer.cs">
+      <DependentUpon>VisualWebPart1UserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{29329b54-3df0-47a0-a9b7-94acd37869ef}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{5c36c4e9-f919-4185-909f-6f1e7f47f59d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="VisualWebPart1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a616ea84-5fc3-430a-9c38-7048e6a448d2}</SharePointProjectItemId>
+    </None>
+    <None Include="VisualWebPart1\VisualWebPart1.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="VisualWebPart1\Elements.xml" />
+    <Content Include="VisualWebPart1\Jquery\jquery-1.11.1.min.js" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\external\jquery\jquery.js" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-icons_222222_256x240.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\index.html" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.css" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.js" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.min.css" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.min.js" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.structure.css" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.structure.min.css" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.theme.css" />
+    <Content Include="VisualWebPart1\Jquery\jquery-ui-1.11.1\jquery-ui.theme.min.css" />
+    <Content Include="VisualWebPart1\marker.png" />
+    <Content Include="VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

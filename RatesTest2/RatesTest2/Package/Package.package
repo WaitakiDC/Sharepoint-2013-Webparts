@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ef2e637d-e40d-4291-a6ef-22b8e524086a" solutionId="ef2e637d-e40d-4291-a6ef-22b8e524086a" resetWebServer="false" sharePointProductVersion="15.0" name="RatesTest2" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="f27b586d-0f99-46f8-b3cd-ed1bb5a97744" />
+  </features>
+</package>

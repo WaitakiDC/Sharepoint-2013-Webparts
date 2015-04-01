@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Cemeteries.VisualWebPart1.VisualWebPart1, Cemeteries, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ed2b67506fa62d6" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Cemeteries</property>
+        <property name="Description" type="string">Display the cemeteries search</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="eb994064-2f37-4976-ba03-167154ae25dd" Scope="Web" Title="ContractsSiteCreationList Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ContractSiteListInstance\Elements.xml" />
+    <ElementManifest Location="ContractSiteList\Elements.xml" />
+    <ElementFile Location="ContractSiteList\Schema.xml" />
+    <ElementManifest Location="EventReceiver1\Elements.xml" />
+  </ElementManifests>
+</Feature>

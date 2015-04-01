@@ -92,21 +92,24 @@ namespace NavigationTiles.VisualWebPart1 {
 	width:100%;
 }
 
-#panelsHolder ul 
-{
-    margin-top:40px;
-}
+
 
 #panelsHolder li > a > ul 
 {
-    margin-top: 0px;
+    margin-top: 10px;
+    list-style:square;
 }
 
 #panelsHolder li > a > ul > li 
 {
     font-size: 12px;    
     font-weight: normal;
-    margin-top: -7px;
+
+}
+
+#panelsHolder p
+{
+    line-height: 0.5;
 }
 
 #panelsHolder div > li

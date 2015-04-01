@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\ContentInWebpart\ContentInWebpart\obj\Debug\ContentInWebpart.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\ContentInWebpart\ContentInWebpart\bin\Debug\ContentInWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\ContentInWebpart\ContentInWebpart\bin\Debug\ContentInWebpart.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\ContentInWebpart\ContentInWebpart\obj\Debug\ContentInWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\ContentInWebpart\ContentInWebpart\obj\Debug\ContentInWebpart.pdb

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ebbfcb0b-44e1-4e49-940b-d2e24bd47c17" SharePointProductVersion="15.0">
   <Assemblies>
-    <Assembly Location="FacebookTest.dll" DeploymentTarget="GlobalAssemblyCache">
+    <Assembly Location="FacebookFeed - Aquatic.dll" DeploymentTarget="GlobalAssemblyCache">
       <SafeControls>
-        <SafeControl Assembly="FacebookTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c4788cad1c8f499a" Namespace="FacebookTest.VisualWebPart1" TypeName="*" />
+        <SafeControl Assembly="FacebookFeed - Aquatic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c4788cad1c8f499a" Namespace="FacebookTest.VisualWebPart1" TypeName="*" />
       </SafeControls>
     </Assembly>
   </Assemblies>
@@ -11,6 +11,6 @@
     <TemplateFile Location="CONTROLTEMPLATES\FacebookTest\VisualWebPart1\VisualWebPart1UserControl.ascx" />
   </TemplateFiles>
   <FeatureManifests>
-    <FeatureManifest Location="FacebookTest_Feature1\Feature.xml" />
+    <FeatureManifest Location="FacebookFeed - Aquatic_Feature1\Feature.xml" />
   </FeatureManifests>
 </Solution>

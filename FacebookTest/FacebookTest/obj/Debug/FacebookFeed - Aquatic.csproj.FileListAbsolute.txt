@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\bin\Debug\FacebookFeed - Aquatic.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\bin\Debug\FacebookFeed - Aquatic.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookFeed - Aquatic.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookFeed - Aquatic.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\FacebookTest\FacebookTest\obj\Debug\FacebookFeed - Aquatic.pdb

@@ -1,0 +1,4 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AccordionDivs\AccordionDivs\bin\Debug\AccordionDivs.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AccordionDivs\AccordionDivs\bin\Debug\AccordionDivs.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AccordionDivs\AccordionDivs\obj\Debug\AccordionDivs.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\AccordionDivs\AccordionDivs\obj\Debug\AccordionDivs.pdb

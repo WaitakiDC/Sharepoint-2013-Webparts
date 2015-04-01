@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="MailToService.VisualWebPart1.VisualWebPart1, MailToService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f3f7e71960970131" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">MailToService</property>
+        <property name="Description" type="string">Send email to service@waitaki.govt.nz</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

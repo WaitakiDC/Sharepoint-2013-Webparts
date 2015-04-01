@@ -29,61 +29,80 @@ namespace MeetingListWebpart.VisualWebPart1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            CreateList();
+          //  CreateList();
 
             addItemsToPage(getList());
         }
 
         protected void CreateList()
         {
-            try
-            {
-                // choose your site
-                SPWeb web = SPContext.Current.Web;
-                SPSite site = SPContext.Current.Site;
-                web.AllowUnsafeUpdates = true;
-                SPListCollection lists = web.Lists;
+            //try
+            //{
+            //    // choose your site
+            //    SPWeb web = SPContext.Current.Web;
+            //    SPSite site = SPContext.Current.Site;
+            //    web.AllowUnsafeUpdates = true;
+            //    SPListCollection lists = web.Lists;
 
-                // create new Generic list called "AlertsList"
-                lists.Add("Meetings List", "List to control the meetings for this webpart. Don't change the columns", SPListTemplateType.GenericList);
+            //    // create new Generic list called "Meetings List"
+            //    lists.Add("Meetings List", "List to control the meetings for this webpart. Don't change the columns", SPListTemplateType.GenericList);
 
-                SPList list = web.Lists["Meetings List"];
-                SPList locationsList = web.Lists["Locations"];
-                // create Text type new column called "My Column" 
-                list.Fields.Add("Description", SPFieldType.Text, true);
-                list.Fields.AddLookup("Locations", locationsList.ID, true);
-                SPField locationsCol = list.Fields.GetField("Locations");
-                locationsCol.SchemaXml = locationsCol.SchemaXml.Replace("Type=\"Lookup\"", "Type=\"Lookup\" ShowField=\"Title\" ");
+            //    SPList list = web.Lists["Meetings List"];
+            //    SPList locationsList = web.Lists["Locations"];
+            //    // create Text type new column called "My Column" 
+            //    list.Fields.Add("Description", SPFieldType.Text, true);
+            //    list.Fields.AddLookup("Locations", locationsList.ID, true);
+            //    SPField locationsCol = list.Fields.GetField("Locations");
+            //    locationsCol.SchemaXml = locationsCol.SchemaXml.Replace("Type=\"Lookup\"", "Type=\"Lookup\" ShowField=\"Title\" ");
 
-                list.Fields.AddFieldAsXml("<Field Type=\"DateTime\" DisplayName=\"Event DateTime\" Required=\"TRUE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" Format=\"DateTime\" Name=\"EventDateTime\" />");
+            //    list.Fields.AddFieldAsXml("<Field Type=\"DateTime\" DisplayName=\"Event DateTime\" Required=\"TRUE\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" Format=\"DateTime\" Name=\"EventDateTime\" />");
 
-                list.Update();
+            //    list.Update();
 
-                // make new column visible in default view
-                SPView view = list.DefaultView;
-                view.ViewFields.Add("Description");
-                view.ViewFields.Add("Locations");
-                view.ViewFields.Add("Event DateTime");
-                view.Update();
+            //    // make new column visible in default view
+            //    SPView view = list.DefaultView;
+            //    view.ViewFields.Add("Description");
+            //    view.ViewFields.Add("Locations");
+            //    view.ViewFields.Add("Event DateTime");
+            //    view.Update();
 
-                Label myLabel = new Label();
-                myLabel.Text = "Meeting List Created. Please go to site contents to add items for the Meetings";
-                this.Controls.Add(myLabel);
+            //    Label myLabel = new Label();
+            //    myLabel.Text = "Meeting List Created. Please go to site contents to add items for the Meetings";
+            //    this.Controls.Add(myLabel);
 
 
-            }
-            catch (Exception e)
-            {
-            }
+            //}
+            //catch (Exception e)
+            //{
+            //}
         }
 
         protected void addItemsToPage(List<MeetingItem> listOfMeetings)
         {
+            //sort the list
+            listOfMeetings.Sort((meeting1, meeting2) => meeting1.dateTime.CompareTo(meeting2.dateTime));
+
             //add a new row for each item in the meetings list
             foreach (MeetingItem item in listOfMeetings)
             {
-                meetingTable.Controls.Add(returnRow(item));
+                if (item.dateTime > DateTime.Now)
+                    meetingTable.Controls.Add(returnRow(item));
             }
+
+
+
+           
+
+            listOfMeetings.Reverse();
+
+
+            //add a new row for each item in the meetings list
+            foreach (MeetingItem item in listOfMeetings)
+            {
+                if (item.dateTime < DateTime.Now)
+                archiveMeetingTable.Controls.Add(returnRow(item));
+            }
+            
 
         }
 
@@ -130,7 +149,7 @@ namespace MeetingListWebpart.VisualWebPart1
 
             //third cell
             HtmlTableCell tdthird = new HtmlTableCell("td");
-            tdthird.Attributes["class"] = "edges";
+            tdthird.Attributes["class"] = "edges hoverpointer";
             tdthird.Attributes["onclick"] = "displayMeetingLocation('" + item.location.link + "')";
 
             HtmlGenericControl locationName = new HtmlGenericControl("h3");
@@ -249,12 +268,6 @@ namespace MeetingListWebpart.VisualWebPart1
                 }
 
             }
-
-
-
-
-
-
 
         }
         public class LocationItem

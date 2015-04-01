@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="53ed922a-5b91-49c5-adbc-835102be73d7" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="AccordionDivs.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="AccordionDivs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c244fa0fecbe795" Namespace="AccordionDivs.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="AccordionDivs_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

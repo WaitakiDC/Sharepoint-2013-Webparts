@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="eebc9643-d9f4-4937-9d09-0a56cf7236e0" solutionId="eebc9643-d9f4-4937-9d09-0a56cf7236e0" resetWebServer="false" sharePointProductVersion="15.0" name="ContractsSiteCreationList" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="f73271df-df9c-4838-b28e-bd497cf355a9" />
+  </features>
+</package>

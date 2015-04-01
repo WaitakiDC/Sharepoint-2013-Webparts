@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b3d823df-b5c1-4c49-83a7-23f777938d40" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="MailToService.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="MailToService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f3f7e71960970131" Namespace="MailToService.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\MailToService\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="MailToService_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

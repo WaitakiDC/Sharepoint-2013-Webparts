@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b3d823df-b5c1-4c49-83a7-23f777938d40" solutionId="b3d823df-b5c1-4c49-83a7-23f777938d40" resetWebServer="false" sharePointProductVersion="15.0" name="MailToService" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c6ffd7c3-ac86-4694-b216-992d81aa3ee1" />
+  </features>
+</package>

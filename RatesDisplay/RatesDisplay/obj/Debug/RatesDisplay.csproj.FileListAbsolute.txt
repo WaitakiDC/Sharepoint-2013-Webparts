@@ -1,0 +1,4 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesDisplay\RatesDisplay\bin\Debug\RatesDisplay.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesDisplay\RatesDisplay\bin\Debug\RatesDisplay.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesDisplay\RatesDisplay\obj\Debug\RatesDisplay.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesDisplay\RatesDisplay\obj\Debug\RatesDisplay.pdb

@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\BuildingConsents\BuildingConsents\bin\Debug\BuildingConsents.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\BuildingConsents\BuildingConsents\bin\Debug\BuildingConsents.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\BuildingConsents\BuildingConsents\obj\Debug\BuildingConsents.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\BuildingConsents\BuildingConsents\obj\Debug\BuildingConsents.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\BuildingConsents\BuildingConsents\obj\Debug\BuildingConsents.pdb

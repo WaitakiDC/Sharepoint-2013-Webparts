@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1ec19a17-cd06-49ee-81ce-d12b8896b061" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ContentInWebpart.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ContentInWebpart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd0482b037923fa5" Namespace="ContentInWebpart.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ContentInWebpart_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

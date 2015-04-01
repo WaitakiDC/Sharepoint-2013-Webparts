@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MeetingListWebpart\MeetingListWebpart\bin\Debug\MeetingListWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MeetingListWebpart\MeetingListWebpart\bin\Debug\MeetingListWebpart.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MeetingListWebpart\MeetingListWebpart\obj\Debug\MeetingListWebpart.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MeetingListWebpart\MeetingListWebpart\obj\Debug\MeetingListWebpart.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MeetingListWebpart\MeetingListWebpart\obj\Debug\MeetingListWebpart.csprojResolveAssemblyReference.cache

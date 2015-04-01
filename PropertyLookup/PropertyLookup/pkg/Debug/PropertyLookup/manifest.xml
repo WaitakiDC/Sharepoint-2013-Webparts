@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="91983b12-0b65-4a58-92ba-d5c02d9ddc2b" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="PropertyLookup.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="PropertyLookup_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

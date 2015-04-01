@@ -43,6 +43,10 @@ namespace MeetingListWebpart.VisualWebPart1 {
             "artCodeGenerator", "12.0.0.0")]
         protected global::System.Web.UI.HtmlControls.HtmlTable meetingTable;
         
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        protected global::System.Web.UI.HtmlControls.HtmlTable archiveMeetingTable;
+        
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebPartCodeGenerator", "12.0.0.0")]
         public static implicit operator global::System.Web.UI.TemplateControl(VisualWebPart1 target) 
         {
@@ -56,7 +60,22 @@ namespace MeetingListWebpart.VisualWebPart1 {
             global::System.Web.UI.HtmlControls.HtmlTable @__ctrl;
             @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTable();
             this.meetingTable = @__ctrl;
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "meetingTable");
             @__ctrl.ID = "meetingTable";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("data-page-size", "5");
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "12.0.0.0")]
+        private global::System.Web.UI.HtmlControls.HtmlTable @__BuildControlarchiveMeetingTable() {
+            global::System.Web.UI.HtmlControls.HtmlTable @__ctrl;
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTable();
+            this.archiveMeetingTable = @__ctrl;
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "meetingTable");
+            @__ctrl.ID = "archiveMeetingTable";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("data-page-size", "5");
             return @__ctrl;
         }
         
@@ -65,42 +84,76 @@ namespace MeetingListWebpart.VisualWebPart1 {
             "artCodeGenerator", "12.0.0.0")]
         private void @__BuildControlTree(global::MeetingListWebpart.VisualWebPart1.VisualWebPart1 @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<head>\r\n    <script src=\"http://wdcdmzsp4/business/SiteAssets/jquery.js\"></scri" +
-                        "pt>\r\n<title>Meetings Webpart</title>\r\n    <script type=\"text/javascript\">\r\n     " +
-                        "   function displayMeetingLocation(iframeCode)\r\n        {\r\n            //$(\"meet" +
-                        "ing-location-popup\").html(iframeCode).text();\r\n            var popuplocation = d" +
-                        "ocument.getElementById(\"meeting-location-popup\");\r\n            popuplocation.inn" +
-                        "erHTML = iframeCode;\r\n\r\n            var popupcontainer = document.getElementById" +
-                        "(\"meeting-location-container-popup\");\r\n            popupcontainer.style.display " +
-                        "=    \'block\';\r\n        }\r\n        function hidelocationpopup()\r\n        {\r\n     " +
-                        "       var lpop = document.getElementById(\"meeting-location-container-popup\");\r\n" +
-                        "            lpop.style.display = \'none\';\r\n        }\r\n    </script>\r\n<style>\r\n#Me" +
-                        "etingContainer \r\n{\r\n\ttext-align:center;\r\n\tfont-family:Arial;\r\n\twidth:100%;\r\n}\r\n\r" +
-                        "\n#MeetingContainer table tr\r\n{\r\n\r\n\tmargin-top:5px;\r\n}\r\n#MeetingContainer table \r" +
-                        "\n{\r\n    border: 1px solid #666280;\r\n\twidth:100%;\r\n    max-width:700px;\r\n\tborder-" +
-                        "collapse:separate;\r\n    margin-left:auto;\r\n    margin-right:auto;\r\n\r\n\r\n}\r\n#Meeti" +
-                        "ngContainer .edges\r\n\t{\r\n\t\tmargin:0;\r\n\t\tpadding:0;\r\n\t\ttext-align:center;\r\n\t\tfont-" +
-                        "size:10px;\r\n\t\tcolor:white;\r\n\t\twidth:22%;\r\n\t\theight:150px;\r\n\t\tbackground: rgb(102" +
-                        ",98,128); \r\n\r\n\t}\r\n#MeetingContainer .edges h1,#MeetingContainer .edges h2\r\n\t{\r\n " +
-                        "       color:white;\r\n\t\tpadding:0;\r\n\t\tmargin:0;\r\n\t}\r\n#MeetingContainer .middlecel" +
-                        "l\r\n\t{\r\n    padding-left:5px;\r\n    padding-right:5px;\r\n\t\ttext-align:left;\r\n\t\twidt" +
-                        "h:56%;\r\n\t\tborder-width:1px;\r\n\t\tborder-style:solid;\r\n\t\tborder-color:rgb(102,98,12" +
-                        "8);\r\n\t\tborder-bottom-width:1px;\r\n\t\tborder-bottom-style:solid;\r\n\t\tborder-bottom-c" +
-                        "olor:rgb(102,98,128);\r\n\r\n\t}\r\n\t\r\n\t#MeetingContainer table tr > td\r\n{\r\n  margin-bo" +
-                        "ttom: 1em;\r\n}\r\n#MeetingContainer a\r\n{\r\n\tfont-size:8px;\r\n}\r\n#MeetingContainer .ce" +
-                        "nter\r\n{\r\n\tfont-weight:normal;\r\n\tline-height:80px;\r\n}\r\n\r\n.meeting-location-popup " +
-                        "{\r\n    width: 50%;\r\n    height: 50%;\r\n    background: #1abcb9;\r\n    position: ab" +
-                        "solute;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    margin: a" +
-                        "uto;\r\n}\r\n\r\n.meeting-location-container-popup {\r\n    display:none;\r\n    position:" +
-                        " fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    backgroun" +
-                        "d: rgba(0,0,0,.8);\r\n}\r\n</style>\r\n\r\n</head>\r\n\r\n<body>\r\n\t<div id=\"MeetingContainer" +
-                        "\">\r\n\t\t"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<head>\r\n    <link rel=\"stylesheet\" href=\"/_catalogs/masterpage/scripts/Meetings" +
+                        "Scripts/footable.core.css\" />\r\n    \t\t    <script src=\"/_catalogs/masterpage/scri" +
+                        "pts/MeetingsScripts/footable.js\" type=\"text/javascript\"></script>\r\n    <script s" +
+                        "rc=\"/_catalogs/masterpage/scripts/MeetingsScripts/footable.paginate.js\" type=\"te" +
+                        "xt/javascript\"></script>\r\n\r\n\r\n  \r\n\r\n<title>Meetings Webpart</title>\r\n\r\n<style>\r\n" +
+                        ".MeetingContainer \r\n{\r\n\ttext-align:center;\r\n\tfont-family:Arial;\r\n\twidth:100%;\r\n}" +
+                        "\r\n\r\n.MeetingContainer table tr\r\n{\r\n\r\n\tmargin-top:5px;\r\n}\r\n.MeetingContainer tabl" +
+                        "e \r\n{\r\n    border: 1px solid #666280;\r\n\twidth:100%;\r\n    max-width:700px;\r\n\tbord" +
+                        "er-collapse:separate;\r\n    margin-left:auto;\r\n    margin-right:auto;\r\n\r\n\r\n}\r\n.Me" +
+                        "etingContainer .edges\r\n\t{\r\n\t\tmargin:0;\r\n\t\tpadding:0;\r\n\t\ttext-align:center;\r\n\t\tfo" +
+                        "nt-size:10px;\r\n\t\tcolor:white;\r\n\t\twidth:22%;\r\n\t\theight:150px;\r\n\t\tbackground: rgb(" +
+                        "102,98,128); \r\n\r\n\t}\r\n.MeetingContainer .edges h1,.MeetingContainer .edges h2\r\n\t{" +
+                        "\r\n        color:white;\r\n\t\tpadding:0;\r\n\t\tmargin:0;\r\n\t}\r\n.MeetingContainer .middle" +
+                        "cell\r\n\t{\r\n    padding-left:5px;\r\n    padding-right:5px;\r\n\t\ttext-align:left;\r\n\t\tw" +
+                        "idth:56%;\r\n\t\tborder-width:1px;\r\n\t\tborder-style:solid;\r\n\t\tborder-color:rgb(102,98" +
+                        ",128);\r\n\t\tborder-bottom-width:1px;\r\n\t\tborder-bottom-style:solid;\r\n\t\tborder-botto" +
+                        "m-color:rgb(102,98,128);\r\n\r\n\t}\r\n\r\n.ui-widget-header, .ui-state-default\r\n{\r\n    b" +
+                        "ackground:#666280!important;\r\n}\r\n\r\n.ui-tabs-active\r\n{\r\n    background:white!impo" +
+                        "rtant;\r\n}\r\n\r\n#MeetingContainer, #ArchiveMeetingContainer\r\n{\r\n    width:100%;\r\n  " +
+                        "  padding:0;\r\n}\r\n\r\n.ui-widget-content\r\n{\r\n    border:none;\r\n}\r\n\r\n#tabs\r\n{\r\n    w" +
+                        "idth:700px;\r\n}\r\n\t\r\n\t.MeetingContainer table tr > td\r\n{\r\n  margin-bottom: 1em;\r\n}" +
+                        "\r\n.MeetingContainer a\r\n{\r\n\tfont-size:8px;\r\n}\r\n.MeetingContainer .center\r\n{\r\n\tfon" +
+                        "t-weight:normal;\r\n\tline-height:80px;\r\n}\r\n\r\n.meeting-location-popup {\r\n    width:" +
+                        " 600px;\r\n    height: 450px;\r\n    background: white;\r\n    position: absolute;\r\n  " +
+                        "  top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    margin: auto;\r\n}\r\n\r\n" +
+                        ".meeting-location-container-popup {\r\n    display:none;\r\n    position: fixed;\r\n  " +
+                        "  top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    background: rgba(0,0" +
+                        ",0,.8);\r\n}\r\n\r\n.MeetingContainer h3\r\n{\r\n    color:white;\r\n    font-weight:bold;\r\n" +
+                        "}\r\n.middlecell h1\r\n{\r\n    color:black;\r\n    font-size: 20px !important;\r\n}\r\n\r\n.M" +
+                        "eetingContainer a\r\n{\r\n    font-size:10px;\r\n}\r\n\r\n.MeetingContainer li\r\n{\r\n    dis" +
+                        "play:inline-block;\r\n    width:20px;\r\n    height:20px;\r\n    font-size:12px;\r\n    " +
+                        "background-color:#2b2f32;\r\n    line-height:20px;\r\n    color:white;\r\n    padding:" +
+                        "5px;\r\n    margin-left:1px;\r\n    margin-right:1px;\r\n}\r\n\r\n\r\n.MeetingContainer li a" +
+                        ",.MeetingContainer li a:visited\r\n{\r\n        width:20px;\r\n    height:20px;\r\n    f" +
+                        "ont-size:18px;\r\n    background-color:#2b2f32;\r\n    color:white;\r\n}\r\n\r\n.MeetingCo" +
+                        "ntainer .active\r\n{\r\n    background-color:#878079;\r\n\r\n}\r\n.MeetingContainer .activ" +
+                        "e a\r\n{\r\n    background-color:#878079;\r\n\r\n}\r\n.MeetingContainer .active a\r\n{\r\n    " +
+                        "color:black;\r\n\r\n}\r\n\r\n.hoverpointer { cursor: pointer; }\r\n\r\n</style>\r\n\r\n</head>\r\n" +
+                        "\r\n<body>\r\n    <div id=\"tabs\">\r\n        <ul>\r\n            <li><a href=\"#MeetingCo" +
+                        "ntainer\">Current Meetings</a></li>\r\n            <li><a href=\"#ArchiveMeetingCont" +
+                        "ainer\">Archived Meetings</a></li>\r\n        </ul>\r\n\r\n\t    <div class=\"MeetingCont" +
+                        "ainer\" id=\"MeetingContainer\">\r\n\t\t    "));
             global::System.Web.UI.HtmlControls.HtmlTable @__ctrl1;
             @__ctrl1 = this.@__BuildControlmeetingTable();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\t</div>\r\n    <div id=\"meeting-location-container-popup\" class=\"meeting-location" +
-                        "-container-popup\" onclick=\"hidelocationpopup()\'>\r\n    <div id=\"meeting-location-" +
-                        "popup\" class=\"meeting-location-popup\"></div>\r\n</div>\r\n</body>"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\t    </div>\r\n\r\n        <div class=\"MeetingContainer\" id=\"ArchiveMeetingContaine" +
+                        "r\">\r\n            "));
+            global::System.Web.UI.HtmlControls.HtmlTable @__ctrl2;
+            @__ctrl2 = this.@__BuildControlarchiveMeetingTable();
+            @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n\r\n        <div id=\"meeting-location-container-popup\" class=\"mee" +
+                        "ting-location-container-popup\" onclick=\"hidelocationpopup()\">\r\n            <div " +
+                        "id=\"meeting-location-popup\" class=\"meeting-location-popup\"></div>\r\n        </div" +
+                        ">\r\n    </div>\r\n    <script type=\"text/javascript\">\r\n\r\n        document.getElemen" +
+                        "tsByClassName(\"meetingTable\")[0].innerHTML = document.getElementsByClassName(\"me" +
+                        "etingTable\")[0].innerHTML + \"<tfoot><tr><td colspan=\\\"3\\\"><div class=\\\"paginatio" +
+                        "n pagination-centered\\\"></div></td></tr></tfoot>\";\r\n        document.getElements" +
+                        "ByClassName(\"meetingTable\")[1].innerHTML = document.getElementsByClassName(\"meet" +
+                        "ingTable\")[1].innerHTML + \"<tfoot><tr><td colspan=\\\"3\\\"><div class=\\\"pagination " +
+                        "pagination-centered\\\"></div></td></tr></tfoot>\";\r\n\r\n          $(function () {\r\n " +
+                        "             $(\'.meetingTable\').footable();\r\n          });\r\n\r\n          function" +
+                        " displayMeetingLocation(iframeCode) {\r\n              //$(\"meeting-location-popup" +
+                        "\").html(iframeCode).text();\r\n              var popuplocation = document.getEleme" +
+                        "ntById(\"meeting-location-popup\");\r\n              popuplocation.innerHTML = ifram" +
+                        "eCode;\r\n\r\n              var popupcontainer = document.getElementById(\"meeting-lo" +
+                        "cation-container-popup\");\r\n              popupcontainer.style.display = \'block\';" +
+                        "\r\n          }\r\n          function hidelocationpopup() {\r\n              var lpop " +
+                        "= document.getElementById(\"meeting-location-container-popup\");\r\n              lp" +
+                        "op.style.display = \'none\';\r\n          }\r\n\r\n          $(function () {\r\n          " +
+                        "    $(\"#tabs\").tabs();\r\n\r\n\r\n\r\n          });\r\n\r\n\r\n\r\n\r\n</script>\r\n\r\n</body>"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

@@ -7,38 +7,29 @@
 <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VisualWebPart1.ascx.cs" Inherits="MeetingListWebpart.VisualWebPart1.VisualWebPart1" %>
 <head>
-    <script src="http://wdcdmzsp4/business/SiteAssets/jquery.js"></script>
-<title>Meetings Webpart</title>
-    <script type="text/javascript">
-        function displayMeetingLocation(iframeCode)
-        {
-            //$("meeting-location-popup").html(iframeCode).text();
-            var popuplocation = document.getElementById("meeting-location-popup");
-            popuplocation.innerHTML = iframeCode;
+    <link rel="stylesheet" href="/_catalogs/masterpage/scripts/MeetingsScripts/footable.core.css" />
+    		    <script src="/_catalogs/masterpage/scripts/MeetingsScripts/footable.js" type="text/javascript"></script>
+    <script src="/_catalogs/masterpage/scripts/MeetingsScripts/footable.paginate.js" type="text/javascript"></script>
 
-            var popupcontainer = document.getElementById("meeting-location-container-popup");
-            popupcontainer.style.display =    'block';
-        }
-        function hidelocationpopup()
-        {
-            var lpop = document.getElementById("meeting-location-container-popup");
-            lpop.style.display = 'none';
-        }
-    </script>
+
+  
+
+<title>Meetings Webpart</title>
+
 <style>
-#MeetingContainer 
+.MeetingContainer 
 {
 	text-align:center;
 	font-family:Arial;
 	width:100%;
 }
 
-#MeetingContainer table tr
+.MeetingContainer table tr
 {
 
 	margin-top:5px;
 }
-#MeetingContainer table 
+.MeetingContainer table 
 {
     border: 1px solid #666280;
 	width:100%;
@@ -49,7 +40,7 @@
 
 
 }
-#MeetingContainer .edges
+.MeetingContainer .edges
 	{
 		margin:0;
 		padding:0;
@@ -61,13 +52,13 @@
 		background: rgb(102,98,128); 
 
 	}
-#MeetingContainer .edges h1,#MeetingContainer .edges h2
+.MeetingContainer .edges h1,.MeetingContainer .edges h2
 	{
         color:white;
 		padding:0;
 		margin:0;
 	}
-#MeetingContainer .middlecell
+.MeetingContainer .middlecell
 	{
     padding-left:5px;
     padding-right:5px;
@@ -81,25 +72,51 @@
 		border-bottom-color:rgb(102,98,128);
 
 	}
+
+.ui-widget-header, .ui-state-default
+{
+    background:#666280!important;
+}
+
+.ui-tabs-active
+{
+    background:white!important;
+}
+
+#MeetingContainer, #ArchiveMeetingContainer
+{
+    width:100%;
+    padding:0;
+}
+
+.ui-widget-content
+{
+    border:none;
+}
+
+#tabs
+{
+    width:700px;
+}
 	
-	#MeetingContainer table tr > td
+	.MeetingContainer table tr > td
 {
   margin-bottom: 1em;
 }
-#MeetingContainer a
+.MeetingContainer a
 {
 	font-size:8px;
 }
-#MeetingContainer .center
+.MeetingContainer .center
 {
 	font-weight:normal;
 	line-height:80px;
 }
 
 .meeting-location-popup {
-    width: 50%;
-    height: 50%;
-    background: #1abcb9;
+    width: 600px;
+    height: 450px;
+    background: white;
     position: absolute;
     top: 0;
     right: 0;
@@ -117,19 +134,123 @@
     left: 0;
     background: rgba(0,0,0,.8);
 }
+
+.MeetingContainer h3
+{
+    color:white;
+    font-weight:bold;
+}
+.middlecell h1
+{
+    color:black;
+    font-size: 20px !important;
+}
+
+.MeetingContainer a
+{
+    font-size:10px;
+}
+
+.MeetingContainer li
+{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    font-size:12px;
+    background-color:#2b2f32;
+    line-height:20px;
+    color:white;
+    padding:5px;
+    margin-left:1px;
+    margin-right:1px;
+}
+
+
+.MeetingContainer li a,.MeetingContainer li a:visited
+{
+        width:20px;
+    height:20px;
+    font-size:18px;
+    background-color:#2b2f32;
+    color:white;
+}
+
+.MeetingContainer .active
+{
+    background-color:#878079;
+
+}
+.MeetingContainer .active a
+{
+    background-color:#878079;
+
+}
+.MeetingContainer .active a
+{
+    color:black;
+
+}
+
+.hoverpointer { cursor: pointer; }
+
 </style>
 
 </head>
 
 <body>
-	<div id="MeetingContainer">
-		<table runat="server" id="meetingTable">
+    <div id="tabs">
+        <ul>
+            <li><a href="#MeetingContainer">Current Meetings</a></li>
+            <li><a href="#ArchiveMeetingContainer">Archived Meetings</a></li>
+        </ul>
 
-        
-        
-        </table>
-	</div>
-    <div id="meeting-location-container-popup" class="meeting-location-container-popup" onclick="hidelocationpopup()'>
-    <div id="meeting-location-popup" class="meeting-location-popup"></div>
-</div>
+	    <div class="MeetingContainer" id="MeetingContainer">
+		    <table runat="server" class="meetingTable" id="meetingTable" data-page-size="5"> 
+
+		    </table>
+	    </div>
+
+        <div class="MeetingContainer" id="ArchiveMeetingContainer">
+            <table runat="server" class="meetingTable" id="archiveMeetingTable" data-page-size="5">
+            </table>
+        </div>
+
+        <div id="meeting-location-container-popup" class="meeting-location-container-popup" onclick="hidelocationpopup()">
+            <div id="meeting-location-popup" class="meeting-location-popup"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        document.getElementsByClassName("meetingTable")[0].innerHTML = document.getElementsByClassName("meetingTable")[0].innerHTML + "<tfoot><tr><td colspan=\"3\"><div class=\"pagination pagination-centered\"></div></td></tr></tfoot>";
+        document.getElementsByClassName("meetingTable")[1].innerHTML = document.getElementsByClassName("meetingTable")[1].innerHTML + "<tfoot><tr><td colspan=\"3\"><div class=\"pagination pagination-centered\"></div></td></tr></tfoot>";
+
+          $(function () {
+              $('.meetingTable').footable();
+          });
+
+          function displayMeetingLocation(iframeCode) {
+              //$("meeting-location-popup").html(iframeCode).text();
+              var popuplocation = document.getElementById("meeting-location-popup");
+              popuplocation.innerHTML = iframeCode;
+
+              var popupcontainer = document.getElementById("meeting-location-container-popup");
+              popupcontainer.style.display = 'block';
+          }
+          function hidelocationpopup() {
+              var lpop = document.getElementById("meeting-location-container-popup");
+              lpop.style.display = 'none';
+          }
+
+          $(function () {
+              $("#tabs").tabs();
+
+
+
+          });
+
+
+
+
+</script>
+
 </body>

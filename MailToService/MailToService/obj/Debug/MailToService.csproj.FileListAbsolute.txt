@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MailToService\MailToService\bin\Debug\MailToService.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MailToService\MailToService\bin\Debug\MailToService.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MailToService\MailToService\obj\Debug\MailToService.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MailToService\MailToService\obj\Debug\MailToService.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\MailToService\MailToService\obj\Debug\MailToService.pdb

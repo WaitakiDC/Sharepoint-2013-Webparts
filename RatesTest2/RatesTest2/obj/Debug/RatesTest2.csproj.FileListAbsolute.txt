@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesTest2\RatesTest2\obj\Debug\RatesTest2.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesTest2\RatesTest2\bin\Debug\RatesTest2.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesTest2\RatesTest2\bin\Debug\RatesTest2.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesTest2\RatesTest2\obj\Debug\RatesTest2.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\RatesTest2\RatesTest2\obj\Debug\RatesTest2.pdb

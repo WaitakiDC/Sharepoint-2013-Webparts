@@ -1,0 +1,4 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Cemeteries\Cemeteries\bin\Debug\Cemeteries.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Cemeteries\Cemeteries\bin\Debug\Cemeteries.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Cemeteries\Cemeteries\obj\Debug\Cemeteries.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Cemeteries\Cemeteries\obj\Debug\Cemeteries.pdb

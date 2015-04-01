@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="33be06ce-3bc2-4c10-8ea1-7a7e350d9dd7" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="MeetingListWebpart.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="MeetingListWebpart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e675fbf264159733" Namespace="MeetingListWebpart.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="MeetingListWebpart_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

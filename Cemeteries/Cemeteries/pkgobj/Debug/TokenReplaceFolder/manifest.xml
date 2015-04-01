@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="02d92e3c-05f8-42b8-abc1-975005fa3f03" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Cemeteries.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Cemeteries, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ed2b67506fa62d6" Namespace="Cemeteries.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\Cemeteries\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Cemeteries_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

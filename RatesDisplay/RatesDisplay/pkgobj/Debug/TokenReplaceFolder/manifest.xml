@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="5c36c4e9-f919-4185-909f-6f1e7f47f59d" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="RatesDisplay.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="RatesDisplay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7fee33090ab1a3d2" Namespace="RatesDisplay.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\RatesDisplay\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="RatesDisplay_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

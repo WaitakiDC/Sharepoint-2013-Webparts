@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookTest", "FacebookTest\FacebookTest.csproj", "{AE4FD1F5-4FD5-4861-8F56-2C0185167C58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookFeed - Aquatic", "FacebookTest\FacebookFeed - Aquatic.csproj", "{AE4FD1F5-4FD5-4861-8F56-2C0185167C58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

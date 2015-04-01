@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="eebc9643-d9f4-4937-9d09-0a56cf7236e0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ContractsSiteCreationList.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ContractsSiteCreationList_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

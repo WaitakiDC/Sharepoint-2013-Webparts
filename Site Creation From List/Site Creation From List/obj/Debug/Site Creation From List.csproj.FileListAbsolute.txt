@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Site Creation From List\Site Creation From List\bin\Debug\Site Creation From List.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Site Creation From List\Site Creation From List\bin\Debug\Site Creation From List.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Site Creation From List\Site Creation From List\obj\Debug\Site Creation From List.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Site Creation From List\Site Creation From List\obj\Debug\Site Creation From List.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\Site Creation From List\Site Creation From List\obj\Debug\Site Creation From List.pdb

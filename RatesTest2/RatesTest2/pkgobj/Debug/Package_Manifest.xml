@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ef2e637d-e40d-4291-a6ef-22b8e524086a" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="RatesTest2.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="RatesTest2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=826cb3c67fb255e7" Namespace="RatesTest2.VisualWebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\RatesTest2\VisualWebPart1\VisualWebPart1UserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="RatesTest2_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

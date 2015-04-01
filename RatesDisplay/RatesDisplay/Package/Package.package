@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5c36c4e9-f919-4185-909f-6f1e7f47f59d" solutionId="5c36c4e9-f919-4185-909f-6f1e7f47f59d" resetWebServer="false" sharePointProductVersion="15.0" name="RatesDisplay" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="29329b54-3df0-47a0-a9b7-94acd37869ef" />
+  </features>
+</package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f51567be-55bc-4c7f-8c9e-008050154b1e" solutionId="f51567be-55bc-4c7f-8c9e-008050154b1e" resetWebServer="false" sharePointProductVersion="15.0" name="BuildingConsents" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ebee0545-62cd-44c5-ac90-1a5e2350432b" />
+  </features>
+</package>

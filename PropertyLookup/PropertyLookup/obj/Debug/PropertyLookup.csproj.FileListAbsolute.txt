@@ -1,0 +1,5 @@
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\PropertyLookup\PropertyLookup\bin\Debug\PropertyLookup.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\PropertyLookup\PropertyLookup\bin\Debug\PropertyLookup.pdb
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\PropertyLookup\PropertyLookup\obj\Debug\PropertyLookup.csprojResolveAssemblyReference.cache
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\PropertyLookup\PropertyLookup\obj\Debug\PropertyLookup.dll
+C:\Users\sp_admin\Documents\GitHub\Sharepoint-2013-Webparts\PropertyLookup\PropertyLookup\obj\Debug\PropertyLookup.pdb

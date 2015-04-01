@@ -134,6 +134,16 @@ System.ComponentModel.DefaultValue("Link")]
 
         protected void getList()
         {
+            if (_TitleValue == "")
+                _TitleValue = "Title";
+            if (_LinkValue == "")
+                _LinkValue = "Link";
+            if (_OrderValue == "")
+                _OrderValue = "Position";
+            if (_ListItems == "")
+                _ListItems = "TextOverTile";
+
+
             SPWeb thisWeb = SPContext.Current.Web;
             String url = HttpContext.Current.Request.Url.ToString();
             if (url.Contains("SitePages"))

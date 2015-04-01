@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="53ed922a-5b91-49c5-adbc-835102be73d7" solutionId="53ed922a-5b91-49c5-adbc-835102be73d7" resetWebServer="false" sharePointProductVersion="15.0" name="AccordionDivs" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d40d8d38-af54-461d-96ff-87e486591eab" />
+  </features>
+</package>

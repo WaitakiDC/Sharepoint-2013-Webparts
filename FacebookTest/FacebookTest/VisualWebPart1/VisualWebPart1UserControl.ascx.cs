@@ -23,7 +23,7 @@ namespace FacebookTest.VisualWebPart1
             string json;
             using (var webClient = new System.Net.WebClient())
             {
-                json = webClient.DownloadString("https://graph.facebook.com/WaitakiDistrictCouncil/posts?access_token=316648978502024|yi59-SoMG9oovF7Qdt1rMIKu3vA");
+                json = webClient.DownloadString("https://graph.facebook.com/sytleandstrokeswimschool/posts?access_token=316648978502024|yi59-SoMG9oovF7Qdt1rMIKu3vA");
             }
             LoadJson(json);
         }
@@ -37,7 +37,8 @@ namespace FacebookTest.VisualWebPart1
 
             for (int i = 0; i < fbPost.Count;i++) 
                 {
-                    if (fbPost[i].status_type != "shared_story" && fbPost[i].status_type != "mobile_status_update" && fbPost[i].status_type != "status_update")
+                    //if (fbPost[i].status_type != "shared_story" && fbPost[i].status_type != "mobile_status_update" && fbPost[i].status_type != "status_update")
+                    if (fbPost[i].story.Contains("Waitaki District Council commented") || fbPost[i].story.Contains("Waitaki District Council likes"))
                     {
                         fbPost.Remove(fbPost[i]);
                     }
