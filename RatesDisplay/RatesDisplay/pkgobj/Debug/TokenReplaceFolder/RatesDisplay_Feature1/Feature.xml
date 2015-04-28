@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="f86719fa-d86e-4305-8f7a-8f964d893959" Scope="Site" Title="RatesDisplay Feature1">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="RatesDisplay Feature1" Id="f86719fa-d86e-4305-8f7a-8f964d893959" Scope="Site">
   <ElementManifests>
     <ElementManifest Location="VisualWebPart1\Elements.xml" />
     <ElementFile Location="VisualWebPart1\VisualWebPart1.webpart" />

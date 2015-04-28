@@ -124,8 +124,8 @@ namespace MeetingListWebpart.VisualWebPart1 {
                         "color:black;\r\n\r\n}\r\n\r\n.hoverpointer { cursor: pointer; }\r\n\r\n</style>\r\n\r\n</head>\r\n" +
                         "\r\n<body>\r\n    <div id=\"tabs\">\r\n        <ul>\r\n            <li><a href=\"#MeetingCo" +
                         "ntainer\">Current Meetings</a></li>\r\n            <li><a href=\"#ArchiveMeetingCont" +
-                        "ainer\">Archived Meetings</a></li>\r\n        </ul>\r\n\r\n\t    <div class=\"MeetingCont" +
-                        "ainer\" id=\"MeetingContainer\">\r\n\t\t    "));
+                        "ainer\">Past Meetings/Minutes</a></li>\r\n        </ul>\r\n\r\n\t    <div class=\"Meeting" +
+                        "Container\" id=\"MeetingContainer\">\r\n\t\t    "));
             global::System.Web.UI.HtmlControls.HtmlTable @__ctrl1;
             @__ctrl1 = this.@__BuildControlmeetingTable();
             @__parser.AddParsedSubObject(@__ctrl1);

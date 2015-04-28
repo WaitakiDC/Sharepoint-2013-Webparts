@@ -201,7 +201,7 @@
     <div id="tabs">
         <ul>
             <li><a href="#MeetingContainer">Current Meetings</a></li>
-            <li><a href="#ArchiveMeetingContainer">Archived Meetings</a></li>
+            <li><a href="#ArchiveMeetingContainer">Past Meetings/Minutes</a></li>
         </ul>
 
 	    <div class="MeetingContainer" id="MeetingContainer">
