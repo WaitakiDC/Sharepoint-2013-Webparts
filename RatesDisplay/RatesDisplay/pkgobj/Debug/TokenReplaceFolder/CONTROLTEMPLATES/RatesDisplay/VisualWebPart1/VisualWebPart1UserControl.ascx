@@ -316,9 +316,10 @@
 
 
         function codeAddress() {
+            $("#ratesInformationHolder").css("display", "block");
             geocoder.geocode({ 'address': Address }, function (results, status) {
                 if (status == google.maps.GeocoderStatus.OK) {
-                    $("#ratesInformationHolder").css("display", "block");
+                    
                     center = results[0].geometry.location;
                     $("#map-canvas").css("display", "block");
                     $("#map-canvas").css("width", "100%");
